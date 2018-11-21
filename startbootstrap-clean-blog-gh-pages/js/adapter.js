@@ -7,7 +7,7 @@ class Adapter{
     // }
     return fetch(baseURL)
       .then(r => r.json())
-  }
+  }s
 
   static createEntry(entryObj){
     const baseURL = 'http://localhost:3000/api/v1/entries'
